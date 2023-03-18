@@ -30,6 +30,73 @@ html { box-sizing: border-box; }
 
 
 body {
+	display: flex;
 	margin: 0;
+	padding: auto;
+	justify-content: center;
+	flex-flow: row wrap;
 }
 
+.header{
+	width:100%;
+}
+
+.box1,
+ul{
+	display: flex;
+	list-style-type: none;
+	width: 1100px;
+}
+.logo{
+	flex-basis: 50%;
+}
+.cakes,
+.blog,
+.about,
+.contact,
+.order{
+	flex-basis: auto;
+	
+
+}
+a{
+	color: #242424;
+	text-decoration: none;
+	padding: 10px 15px;
+
+}
+a:hover{
+	color: white;
+	background-color: #f195b2;
+	border-radius: 20px;
+}
+
+.box1 img{
+	width: 170px;
+}
+
+section{
+	width: 100%;
+}
+
+.hero{
+	background-image: url(images/cupcake.jpg);
+	background-size: cover;
+	
+}
+h1{
+	font-size: 52px;
+	font-family: playfair display;
+	color: white;
+}
+.texthero{
+	flex-basis: 60%;
+	width: 1100px;
+	font-family: lora cursive;
+	font-size: 24px;
+	color: white;
+}
+.offer{
+	display: flex;
+	flex-direction: row;
+}
