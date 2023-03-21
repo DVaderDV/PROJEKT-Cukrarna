@@ -28,75 +28,126 @@ html { box-sizing: border-box; }
 	#303339		tmavé pozadí patičky
 */
 
-
-body {
-	display: flex;
+/*obecně*/
+body{
 	margin: 0;
-	padding: auto;
-	justify-content: center;
-	flex-flow: row wrap;
-}
-
-.header{
-	width:100%;
-}
-
-.box1,
-ul{
-	display: flex;
-	list-style-type: none;
-	width: 1100px;
-}
-.logo{
-	flex-basis: 50%;
-}
-.cakes,
-.blog,
-.about,
-.contact,
-.order{
-	flex-basis: auto;
-	
-
-}
-a{
 	color: #242424;
-	text-decoration: none;
-	padding: 10px 15px;
-
+	line-height: 1.5;
+	font-family: lora;
+	font-size: 18px;
 }
-a:hover{
-	color: white;
-	background-color: #f195b2;
-	border-radius: 20px;
+img{
+	border-radius: 5px;
 }
 
-.box1 img{
-	width: 170px;
+.box{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 30px;
 }
-
 section{
-	width: 100%;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
-
-.hero{
+header,
+footer{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.white{
+	background-color: white;
+}
+.blue{
+	background-color: rgb(151, 204, 204);
+}
+.grey{
+	background-color:#f0f0f0 ;
+}
+.black{
+	background-color: #303339;
+}
+.cupcake{
 	background-image: url(images/cupcake.jpg);
 	background-size: cover;
-	
+}
+h1,
+h2,
+h3{
+	font-family: playfair display;
+	line-height: 1.25;
 }
 h1{
 	font-size: 52px;
-	font-family: playfair display;
 	color: white;
 }
-.texthero{
-	flex-basis: 60%;
-	width: 1100px;
-	font-family: lora cursive;
+h2{
+	font-size: 36px;
+	color: #3e606b;
+}
+.right{
+	margin-left: 30px;
+}
+/*menu*/
+.logo img{
+	width: 170px;
+}
+.menu{
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+}
+.one{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu a{
+	text-decoration: none;
+	border-radius: 20px;
+	padding: 10px 15px;
+	color: #242424;
+}
+.menu a:hover{
+	background-color: #f195b2;
+	color: white;
+}
+/*hero*/
+.two{
+	padding: 30px 0px;
+}
+.two p{
+	color:white;
 	font-size: 24px;
+	padding-right: 40%;
+}
+/*blue vítejte*/
+.three{
+	display: flex;
+	background-color: white;
+	padding: 0;
+}
+.three .left{
+	padding-left: 10px;
+}
+.three a{
+	background: #f195b2;
+	color: white;
+	padding: 15px 40px;
+	border-radius: 30px;
+	text-decoration: none;
+}
+.three a:hover{
+	background-color: #d2567d;
 	color: white;
 }
+/*grey - dnešní nabídka*/
 .offer{
 	display: flex;
-	flex-direction: row;
+}
+.product{
+	background-color: white;
+	margin-right: 30px;
+}
+.product img{
+	width: 245px;
 }
