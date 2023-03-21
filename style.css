@@ -84,6 +84,9 @@ h2{
 	font-size: 36px;
 	color: #3e606b;
 }
+h3{
+	color: #3e606b;
+}
 .right{
 	margin-left: 30px;
 }
@@ -125,6 +128,7 @@ h2{
 	display: flex;
 	background-color: white;
 	padding: 0;
+	align-items: center;
 }
 .three .left{
 	padding-left: 10px;
@@ -150,4 +154,21 @@ h2{
 }
 .product img{
 	width: 245px;
+}
+.four{
+	padding-left: 0;
+}
+.product p, h3{
+	padding: 0 20px;
+}
+/*white - přístup k pečení*/
+.five{
+	display: flex;
+	align-items: center;
+	padding-left: 0;
+}
+/*patička*/
+.six{
+	color: white;
+	text-align: center;
 }
