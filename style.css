@@ -127,12 +127,12 @@ h3{
 .three{
 	display: flex;
 	background-color: white;
-	padding: 0;
+	padding: 5px 5px 5px 10px;
 	align-items: center;
 }
-.three .left{
+/*.three .left{
 	padding-left: 10px;
-}
+}*/
 .three a{
 	background: #f195b2;
 	color: white;
@@ -151,6 +151,8 @@ h3{
 .product{
 	background-color: white;
 	margin-right: 30px;
+	box-shadow: 5px 5px 8px #999797;
+	border-radius: 5px;
 }
 .product img{
 	width: 245px;
